@@ -29,18 +29,6 @@ def get_data():
     a = float(input("Podaj pierwszą liczbę: "))
     b = float(input("Podaj drugą liczbę: "))
     
-    if type(a) ==(int) or type(a) ==(float) :
-        logging.info(f"argument {a} jest liczbą")
-    else:
-        logging.info(f"argument {a} nie jest liczbą")
-
-    
-    if type(b) ==(int) or type(b) == (float):
-        logging.info(f"argument {b} jest liczbą")
-    else:
-        logging.info(f"argument {b} nie jest liczbą")
-    # dalej pobierasz argumenty i sprawdzasz czy są liczbami
-    # te args w prostszej wersji możesz sobie darować.
 
     return operation, a, b
 
